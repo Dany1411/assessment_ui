@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: runners.RunTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 71.305 sec <<< FAILURE! - in runners.RunTest
+Test(Add to cart functionality)  Time elapsed: 59.452 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: MyCartPO.myCartPageName (tried for 30 second(s) with 5000 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+

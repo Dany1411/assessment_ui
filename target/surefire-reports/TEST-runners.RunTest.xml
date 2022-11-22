@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.RunTest" time="71.305" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.2+8"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\CITL\IdeaProjects\metro_assessment"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\CITL\IdeaProjects\metro_assessment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.2+8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\CITL\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.8.5\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-11.0.13.8-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\apache-maven-3.8.5\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\nodejs\;C:\Users\CITL\AppData\Local\Android\sdk;C:\Users\CITL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin;;C:\Users\CITL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin;C:\Users\CITL\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.5/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.8.5\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\CITL"/>
+    <property name="user.timezone" value="Europe/Bucharest"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="CITL"/>
+    <property name="java.class.path" value="C:\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.2+8"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Test" classname="Add to cart functionality" time="59.452">
+    <error message="Expected condition failed: waiting for visibility of Proxy element for: MyCartPO.myCartPageName (tried for 30 second(s) with 5000 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: MyCartPO.myCartPageName (tried for 30 second(s) with 5000 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+</error>
+    <system-out><![CDATA[
+@test
+Scenario: Test                                &amp#27;[90m# src/test/java/metro/assessment/cucumber/features/orderProducts.feature:7&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the e-commerce site&amp#27;[0m            &amp#27;[90m# metro.assessment.steps.LoadWebsite.openWebsite()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI see landing page for e-commerce site&amp#27;[0m &amp#27;[90m# metro.assessment.steps.LandingPageSteps.checkLandingPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1mASUS&amp#27;[0m                      &amp#27;[90m# metro.assessment.steps.LandingPageSteps.searchForText(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI see results page&amp#27;[0m                     &amp#27;[90m# metro.assessment.steps.SearchResultsPage.checkResultsPage()&amp#27;[0m
+Adauga in Cos
+Adauga in Cos
+Test
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add first &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m items on the cart&amp#27;[0m        &amp#27;[90m# metro.assessment.steps.SearchResultsPage.checkResultsPage(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick to &amp#27;[0m&amp#27;[32m&amp#27;[1mMY_CART&amp#27;[0m&amp#27;[32m page&amp#27;[0m                   &amp#27;[90m# metro.assessment.steps.LandingPageSteps.clickOnMenu(metro.assessment.pageobjects.NavigationBarElements)&amp#27;[0m
+2
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI see my selected items&amp#27;[0m                &amp#27;[90m# metro.assessment.steps.MyCartSteps.clickOnMenu()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: MyCartPO.myCartPageName (tried for 30 second(s) with 5000 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at metro.assessment.utils.WebElementsChecker.waitWebElementBeVisible(WebElementsChecker.java:25)
+	at metro.assessment.utils.WebElementsChecker.lambda$checkPresenceOfWebElementsFromList$0(WebElementsChecker.java:31)
+	at java.base/java.util.Arrays$ArrayList.forEach(Arrays.java:4204)
+	at metro.assessment.utils.WebElementsChecker.checkPresenceOfWebElementsFromList(WebElementsChecker.java:29)
+	at metro.assessment.pageobjects.MyCartPO.checkMyCart(MyCartPO.java:39)
+	at metro.assessment.steps.MyCartSteps.clickOnMenu(MyCartSteps.java:14)
+	at âœ½.I see my selected items(file:///C:/Users/CITL/IdeaProjects/metro_assessment/src/test/java/metro/assessment/cucumber/features/orderProducts.feature:13)
+Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:164)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:116)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at metro.assessment.utils.WebElementsChecker.waitWebElementBeVisible(WebElementsChecker.java:25)
+	at metro.assessment.utils.WebElementsChecker.lambda$checkPresenceOfWebElementsFromList$0(WebElementsChecker.java:31)
+	at java.base/java.util.Arrays$ArrayList.forEach(Arrays.java:4204)
+	at metro.assessment.utils.WebElementsChecker.checkPresenceOfWebElementsFromList(WebElementsChecker.java:29)
+	at metro.assessment.pageobjects.MyCartPO.checkMyCart(MyCartPO.java:39)
+	at metro.assessment.steps.MyCartSteps.clickOnMenu(MyCartSteps.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:288)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI remove &amp#27;[0m&amp#27;[36m&amp#27;[1m1&amp#27;[0m&amp#27;[36m items from the list&amp#27;[0m         &amp#27;[90m# metro.assessment.steps.MyCartSteps.removeItems(int)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI see &amp#27;[0m&amp#27;[36m&amp#27;[1m1&amp#27;[0m&amp#27;[36m items in my cart&amp#27;[0m               &amp#27;[90m# metro.assessment.steps.MyCartSteps.checkNrOfItems(int)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI remove &amp#27;[0m&amp#27;[36m&amp#27;[1m1&amp#27;[0m&amp#27;[36m items from the list&amp#27;[0m         &amp#27;[90m# metro.assessment.steps.MyCartSteps.removeItems(int)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI see &amp#27;[0m&amp#27;[36m&amp#27;[1m0&amp#27;[0m&amp#27;[36m items in my cart&amp#27;[0m               &amp#27;[90m# metro.assessment.steps.MyCartSteps.checkNrOfItems(int)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (metro.assessment.utils.SerenityProperties).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Nov 22, 2022 1:24:44 PM metro.assessment.utils.BrowserHandler goToEnvironment
+INFO: 
+############################################################
+Launching the url: https://www.emag.ro
+Driver: CHROME
+############################################################
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 23445
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2022 1:24:57 PM metro.assessment.utils.BrowserHandler maximizeScreen
+INFO: Set Browser Window Dimension to FULL SCREEN
+Nov 22, 2022 1:24:59 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: button.js-accept]
+Nov 22, 2022 1:24:59 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: Proxy element for: LandingPagePO.closeLoginInfoBar
+Nov 22, 2022 1:25:00 PM metro.assessment.utils.WebElementsChecker lambda$checkPresenceOfWebElementsFromList$0
+INFO: Check [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: div.navbar-aux-content] web element
+Nov 22, 2022 1:25:00 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: div.navbar-aux-content]
+Nov 22, 2022 1:25:00 PM metro.assessment.utils.WebElementsChecker lambda$checkPresenceOfWebElementsFromList$0
+INFO: Check [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: input#searchboxTrigger] web element
+Nov 22, 2022 1:25:00 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: input#searchboxTrigger]
+Nov 22, 2022 1:25:00 PM metro.assessment.utils.WebElementsChecker lambda$checkPresenceOfWebElementsFromList$0
+INFO: Check [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: button.searchbox-submit-button] web element
+Nov 22, 2022 1:25:00 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: button.searchbox-submit-button]
+Nov 22, 2022 1:25:01 PM metro.assessment.utils.WebElementsChecker lambda$checkPresenceOfWebElementsFromList$0
+INFO: Check [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: li.main-megamenu-trigger] web element
+Nov 22, 2022 1:25:01 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: li.main-megamenu-trigger]
+Nov 22, 2022 1:25:01 PM metro.assessment.utils.WebElementsChecker lambda$checkPresenceOfWebElementsFromList$0
+INFO: Check [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> xpath: //a[contains(text(),'Genius')]] web element
+Nov 22, 2022 1:25:01 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> xpath: //a[contains(text(),'Genius')]]
+Nov 22, 2022 1:25:01 PM metro.assessment.utils.WebElementsChecker lambda$checkPresenceOfWebElementsFromList$0
+INFO: Check [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> xpath: //a[contains(text(),'Card')]] web element
+Nov 22, 2022 1:25:01 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> xpath: //a[contains(text(),'Card')]]
+Nov 22, 2022 1:25:01 PM metro.assessment.utils.WebElementsChecker lambda$checkPresenceOfWebElementsFromList$0
+INFO: Check [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> xpath: //a[contains(text(),'Resigilate')]] web element
+Nov 22, 2022 1:25:01 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> xpath: //a[contains(text(),'Resigilate')]]
+Nov 22, 2022 1:25:01 PM metro.assessment.utils.WebElementsChecker lambda$checkPresenceOfWebElementsFromList$0
+INFO: Check [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> xpath: //a[contains(text(),'Card')]] web element
+Nov 22, 2022 1:25:01 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> xpath: //a[contains(text(),'Card')]]
+Nov 22, 2022 1:25:01 PM metro.assessment.utils.WebElementsChecker lambda$checkPresenceOfWebElementsFromList$0
+INFO: Check [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> xpath: //a[contains(text(),'Oferta')]] web element
+Nov 22, 2022 1:25:01 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> xpath: //a[contains(text(),'Oferta')]]
+Nov 22, 2022 1:25:02 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: input#searchboxTrigger]
+Nov 22, 2022 1:25:06 PM metro.assessment.utils.WebElementsChecker lambda$checkPresenceOfWebElementsFromList$0
+INFO: Check [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: div.sidebar-filter-container] web element
+Nov 22, 2022 1:25:06 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: div.sidebar-filter-container]
+Nov 22, 2022 1:25:06 PM metro.assessment.utils.WebElementsChecker lambda$checkPresenceOfWebElementsFromList$0
+INFO: Check [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: div.listing-page-title] web element
+Nov 22, 2022 1:25:06 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: div.listing-page-title]
+Nov 22, 2022 1:25:06 PM metro.assessment.utils.WebElementsChecker lambda$checkPresenceOfWebElementsFromList$0
+INFO: Check [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: div.js-head-sort-options] web element
+Nov 22, 2022 1:25:06 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: [[ChromeDriver: chrome on WINDOWS (1a5c56c5ce291da82d9e998be611d0a9)] -> css selector: div.js-head-sort-options]
+Nov 22, 2022 1:25:11 PM metro.assessment.utils.WebElementsChecker lambda$checkPresenceOfWebElementsFromList$0
+INFO: Check Proxy element for: MyCartPO.myCartPageName web element
+Nov 22, 2022 1:25:11 PM metro.assessment.utils.WebElementsChecker waitWebElementBeVisible
+INFO: Waiting web element be visible: Proxy element for: MyCartPO.myCartPageName
+]]></system-err>
+  </testcase>
+</testsuite>
